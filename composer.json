@@ -1,0 +1,27 @@
+{
+    "name": "ishushx\/laravel-translate",
+    "description": "A BaiduTranslate SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ishushx",
+            "email": "ishushx@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "overtrue/pinyin": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ishushx\\LaravelTranslate\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ishushx\\LaravelTranslate\\ServiceProvider"
+            ]
+        }
+    }
+}
