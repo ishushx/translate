@@ -13,7 +13,7 @@ $ composer require ishushx/laravel-translate -vvv
 
 在使用本扩展之前，你需要去 [百度翻译平台](http://api.fanyi.baidu.com/api/trans/product/index) 注册账号，然后创建应用，获取应用的 `API Id` 和 `API Key`。
 
-##使用
+## 使用
 ```php
 use Ishushx\LaravelTranslate\Translate;
 
